@@ -23,7 +23,7 @@ define borders with 'Base type' = 'Linear bounded'
 Later on we 'couple' both axes in plc by calculation velocity with this factor, that it is...
 
 ## Result
-see [Video](http://img.youtube.com/vi/qdOVnebVUVw/0.jpg)](https://youtu.be/2xlJ4MhTJ84)
+see [Video](https://youtu.be/2xlJ4MhTJ84)
 
 ## Warranty/Disclaimer
 This documentation and sample is **not an official B&amp;R product!**
