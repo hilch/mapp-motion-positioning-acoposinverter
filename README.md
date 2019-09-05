@@ -22,6 +22,9 @@ Nothing special here as virtual axes support all 'Base types'. We assume 10 mm p
 define borders with 'Base type' = 'Linear bounded'
 Later on we 'couple' both axes in plc by calculation velocity with this factor, that it is...
 
+## Result
+see [Video](http://img.youtube.com/vi/qdOVnebVUVw/0.jpg)](https://youtu.be/2xlJ4MhTJ84)
+
 ## Warranty/Disclaimer
 This documentation and sample is **not an official B&amp;R product!**
 For this reason the use it at your own risk and there is NO claim on support or maintenance.
