@@ -23,7 +23,7 @@ As only 'Base type' = 'Rotary' and 'Linear' and integer units are allowed for AC
 ## Configuring virtual axis
 Nothing special here as virtual axes support all 'Base types'. We assume 10 mm per motor axis revolution and
 define borders with 'Base type' = 'Linear bounded'
-Later on we 'couple' both axes in plc by calculation velocity with this factor, that it is...
+Later on we 'couple' both axes in plc by calculating velocity by this factor, that it is...
 
 ## Result
 see [Video](https://youtu.be/2xlJ4MhTJ84)
