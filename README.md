@@ -4,8 +4,11 @@ Positioning with mapp Motion &amp; ACOPOSinverters
 ## Mission
 Starting with V5.8 mapp Motion supports the use of ACOPOSinverter as mapp axis.
 If function model is configured as 'Motion configuration' instead of 'Direct control' the inverter will be controlled as 'DS402 profile' drive. 
+
 Afterwards controlling the drive is very comfortable but there are still limitiations as there is only support for "Velocity mode", e.g. no support for MC_MoveAbsolute, MC_MoveAdditive e.g.
-Sometimes this might be useful even there is no feedback sensor for speed or position.
+
+But sometimes positioning with a simple induction motor might be required even there is no feedback sensor for speed or position.
+
 This sample will show a simple approach with mapp Motion's "Pure Virtual Axis"
 
 
