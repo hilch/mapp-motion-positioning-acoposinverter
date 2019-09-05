@@ -9,7 +9,7 @@ Afterwards controlling the drive is very comfortable but there are still limitia
 
 But sometimes positioning with a simple induction motor might be required even there is no feedback sensor for speed or position.
 
-This sample will show a simple approach with mapp Motion's "Pure Virtual Axis"
+This example project will show a simple approach with mapp Motion's "Pure Virtual Axis"
 
 
 ## Configuring ACOPOSinverter in Physical View
