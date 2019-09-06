@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<BR.AS.HardwareTopology Version="0.0.0.1">
+  <Modules>
+    <Module Name="X20CP3585" Type="X20CP3585" X="100" Y="100" />
+    <Module Name="8I76xxxxxxx.0P-xxx" Type="8I76xxxxxxx.0P-xxx" X="300" Y="249" />
+  </Modules>
+  <Links>
+    <Link From="8I76xxxxxxx.0P-xxx" To="X20CP3585" FromPort="PLK1" ToPort="IF3" IsRoutedByUser="False">
+      <Point X="156" Y="187" />
+      <Point X="156" Y="187" />
+      <Point X="156" Y="200" />
+      <Point X="156" Y="455" />
+      <Point X="308" Y="455" />
+      <Point X="308" Y="450" />
+      <Point X="308" Y="403" />
+      <Point X="308" Y="403" />
+    </Link>
+  </Links>
+  <InfoElements />
+</BR.AS.HardwareTopology>

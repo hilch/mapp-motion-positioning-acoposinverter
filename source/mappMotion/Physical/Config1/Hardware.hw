@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.5.3.86?>
+<Hardware xmlns="http://br-automation.co.at/AS/Hardware">
+  <Module Name="8I76xxxxxxx.0P-xxx" Type="8I76xxxxxxx.0P-xxx" Version="1.1.0.5">
+    <Connection Connector="PLK1" TargetModule="X20CP3585" TargetConnector="IF3" NodeNumber="5">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+    </Connection>
+    <Parameter ID="FunctionModel" Value="MotionConfig" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="McTypeID" Value="McAcoposInverterP76P" />
+    <Parameter ID="AxisReference" Value="gAxis_Inv" />
+    <Parameter ID="InputIsReadOnly" Value="0" />
+    <Parameter ID="Input" Value="1" />
+    <Parameter ID="OutputIsReadOnly" Value="0" />
+    <Parameter ID="Output" Value="1" />
+    <Parameter ID="ReferenceDistanceIsReadOnly" Value="0" />
+    <Parameter ID="ReferenceDistance" Value="1" />
+    <Parameter ID="UnitOfSetpoint" Value="Rpm" />
+    <Parameter ID="IOM_AIDP1" Value="LFT" />
+    <Parameter ID="Sel_NameplateMask" Value="8Ix6S200037_IEC" />
+    <Parameter ID="Cfg_NSP" Value="880" />
+    <Parameter ID="Cfg_NCR" Value="18" />
+    <Parameter ID="Cfg_COS" Value="100" />
+    <Parameter ID="Cfg_NPR" Value="18" />
+    <Parameter ID="Cfg_TUNU" Value="0" />
+    <Parameter ID="Sel_DCtype" Value="8Ix6S2V240_FIX" />
+    <Parameter ID="Cfg_SPG" Value="20" />
+  </Module>
+  <Module Name="X20CP3585" Type="X20CP3585" Version="1.6.0.0">
+    <Connector Name="IF2">
+      <Parameter ID="ActivateDevice" Value="1" />
+      <Parameter ID="Mode" Value="Manual" />
+      <Parameter ID="InternetAddress" Value="192.168.0.34" />
+      <Parameter ID="SubnetMask" Value="255.255.255.0" />
+    </Connector>
+    <Parameter ID="ConfigurationID" Value="mappMotion_Config1" />
+    <Group ID="FileDevice1" />
+    <Parameter ID="FileDeviceName1" Value="USER" />
+    <Parameter ID="FileDevicePath1" Value="F:\" />
+    <Parameter ID="ActivateOpcUa" Value="1" />
+    <Parameter ID="OpcUa_AuthenticationSecurityPolicy_EnableNone" Value="1" />
+    <Parameter ID="OpcUa_AuthenticationSecurityPolicy_EnableBasic128Rsa15" Value="1" />
+    <Parameter ID="OpcUaInformationModels_PV_Version" Value="1" />
+  </Module>
+</Hardware>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Element ID="gPureVirtualAxis_Inv" Type="purevaxcfg">
+    <Property ID="TypeID" Value="PureVAxConfig" />
+    <Group ID="PureVAxis">
+      <Property ID="AxisReference" Value="gVAxis_Inv" />
+      <Group ID="Homing">
+        <Selector ID="Mode" Value="Direct">
+          <Property ID="Position" Value="0.0" />
+        </Selector>
+      </Group>
+      <Selector ID="JerkFilter" Value="NotUsed" />
+    </Group>
+  </Element>
+</Configuration>

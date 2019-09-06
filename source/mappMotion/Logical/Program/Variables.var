@@ -1,0 +1,11 @@
+VAR
+	MpAxisParameters : MpAxisBasicParType;
+	MpAxisBasic_0 : MpAxisBasic;
+	MC_Power_0 : MC_Power;
+	MC_Reset_0 : MC_Reset;
+	AdvancedParameters : McAdvVelCtrlParType;
+	MC_BR_VelocityControl_0 : MC_BR_VelocityControl;
+	MC_ReadActualVelocity_0 : MC_ReadActualVelocity;
+	Position : LREAL;
+	MC_ReadStatus_0 : MC_ReadStatus;
+END_VAR
