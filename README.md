@@ -1,3 +1,5 @@
+[![Made For B&R](https://github.com/hilch/BandR-badges/blob/main/Made-For-BrAutomation.svg)](https://www.br-automation.com)
+
 # mapp-motion-positioning-acoposinverter
 Positioning with mapp Motion &amp; ACOPOSinverters
 
